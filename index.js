@@ -1,4 +1,4 @@
-$('#save_lincoln').click(()=>saveLincoln(parseInt($('#interval').val())))
+// $('#save_lincoln').click(()=>saveLincoln(parseInt($('#interval').val())))
 
 function saveLincoln(interval) {
   if(isNaN(interval)) {
